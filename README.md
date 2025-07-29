@@ -17,4 +17,13 @@ Frontend: React, TypeScript
 
 UI Library: Chakra UI
 
+Commands: 
+
+Installation: npm install
+
+Run command: npm run dev
+
+Node version supported: v22.17.1, npm: 10.9.2
+
+
 
