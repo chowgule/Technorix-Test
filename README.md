@@ -17,15 +17,4 @@ Frontend: React, TypeScript
 
 UI Library: Chakra UI
 
-Folder-Structure:
 
-src/
- ├── api/                # API integration layer
- │    └── jobApi.ts
- ├── pages/              # Page components
- │    ├── JobDetailsPage.tsx
- │    ├── JobListPage.tsx
- │    └── index.ts
- ├── App.tsx             # Main application component
- ├── App.css             # Global styles
- └── main.tsx            # Entry point
