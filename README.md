@@ -1,6 +1,13 @@
 # Technorix Test
 
-*Note: The company has since rebranded as Onstro, but the project was originally assigned under Technorix.* 
+---
+
+> **Note:** This project was originally assigned under **Technorix**, which has since rebranded to **Onstro**.
+
+---
+
+This project is a React + TypeScript application built with Vite. It lists job openings, provides search and filter functionality, and shows detailed information for each job. The UI is built using [Chakra UI](https://chakra-ui.com/).
+
 
 This project is a **React + TypeScript** application built with Vite. It lists Teknorix’s
 active job openings, provides search and filter functionality, and shows detailed
