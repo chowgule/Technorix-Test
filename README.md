@@ -31,13 +31,5 @@ information for each job. The UI is built using [Chakra UI](https://chakra-ui.c
    The app will be available at `http://localhost:5173`.
 
 
-## API
 
-This project uses the Teknorix Jobsoid API. You may need to provide an API token;
-see `src/api/jobApi.ts` for details.
 
-- Fetch all jobs: `GET https://teknorix.jobsoid.com/api/v1/jobs`
-- Fetch job by ID: `GET https://teknorix.jobsoid.com/api/v1/jobs/{id}`
-
-If you want to enable authenticated requests, set an appropriate `Authorization`
-header in the `fetchJSON` helper within `src/api/jobApi.ts`.
