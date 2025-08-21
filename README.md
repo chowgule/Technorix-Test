@@ -1,0 +1,48 @@
+# Teknorix Job Openings App
+
+This project is a **React + TypeScript** application built with Vite. It lists Teknorix’s
+active job openings, provides search and filter functionality, and shows detailed
+information for each job. The UI is built using [Chakra UI](https://chakra-ui.com/).
+
+## Features
+
+- **List page**: Displays job openings grouped by department with search and filter
+  options for search term, department, location, and function. Each job entry has
+  “View” and “Apply” buttons.
+- **Details page**: Shows detailed information about a single job, with a link to
+  apply and a list of other jobs from the same department.
+- Persist applied filters when navigating between the list and details pages.
+- Built using React Router for client‑side routing and Chakra UI for styling.
+
+## Getting started
+
+1. **Install dependencies**
+
+   ```sh
+   npm install
+   ```
+
+2. **Run the development server**
+
+   ```sh
+   npm run dev
+   ```
+
+   The app will be available at `http://localhost:5173`.
+
+3. **Build for production**
+
+   ```sh
+   npm run build
+   ```
+
+## API
+
+This project uses the Teknorix Jobsoid API. You may need to provide an API token;
+see `src/api/jobApi.ts` for details.
+
+- Fetch all jobs: `GET https://teknorix.jobsoid.com/api/v1/jobs`
+- Fetch job by ID: `GET https://teknorix.jobsoid.com/api/v1/jobs/{id}`
+
+If you want to enable authenticated requests, set an appropriate `Authorization`
+header in the `fetchJSON` helper within `src/api/jobApi.ts`.
