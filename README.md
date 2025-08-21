@@ -16,7 +16,7 @@ information for each job. The UI is built using [Chakra UI](https://chakra-ui.c
 - Persist applied filters when navigating between the list and details pages.
 - Built using React Router for client‑side routing and Chakra UI for styling.
 
-## Getting started
+## Installation & Setup
 
 1. **Install dependencies**
 
