@@ -1,4 +1,4 @@
-
+# Technorix Test
 
 This project is a **React + TypeScript** application built with Vite. It lists Teknorix’s
 active job openings, provides search and filter functionality, and shows detailed
