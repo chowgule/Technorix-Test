@@ -1,4 +1,4 @@
-# Teknorix Job Openings App
+
 
 This project is a **React + TypeScript** application built with Vite. It lists Teknorix’s
 active job openings, provides search and filter functionality, and shows detailed
@@ -30,11 +30,6 @@ information for each job. The UI is built using [Chakra UI](https://chakra-ui.c
 
    The app will be available at `http://localhost:5173`.
 
-3. **Build for production**
-
-   ```sh
-   npm run build
-   ```
 
 ## API
 
